@@ -81,3 +81,17 @@ a:hover {
 .start {
   padding-top: 15vh;
 }
+
+@media screen and (max-width: 700px) {
+  .section {
+    margin: 0 20px;
+  }
+
+  .blog-button {
+    margin-top: 15px !important;
+  }
+
+  footer {
+    position: relative;
+  }
+}
